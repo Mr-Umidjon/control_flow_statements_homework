@@ -9,4 +9,10 @@ def main(a):
     Returns:
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
-    return
+    if a < 0:
+        a *= -1
+        return not a >= int(str(a)[::-1])
+    return a >= int(str(a)[::-1])
+
+
+print((main(-21)))
