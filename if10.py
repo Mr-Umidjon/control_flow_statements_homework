@@ -13,6 +13,7 @@ def main(temp):
     Returns:
         string: the message to print
     """
+    global reslut
     if temp <= 0:
         reslut = "Freezing"
     if 1 <= temp <= 10:
