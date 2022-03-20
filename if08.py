@@ -11,4 +11,14 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+    if 9 < a < 100 and a % 2 == 1:
+        reslut = "two-digit odd number"
+    if 9 < a < 100 and a % 2 == 0:
+        reslut = "two-digit even number"
+
+    if 99 < a < 1000 and a % 2 == 1:
+        reslut = "two-digit odd number"
+    if 99 < a < 1000 and a % 2 == 0:
+        reslut = "two-digit even number"
+
+    return reslut
