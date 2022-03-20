@@ -17,6 +17,6 @@ def main(a, b, c):
     count2 = a < 0 + b < 0 + c < 0
     if count > count2:
         result = "there are a lot of positive numbers"
-    else:
+    elif count < count2:
         result = "there are a lot of negative numbers"
     return result
