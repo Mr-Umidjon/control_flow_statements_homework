@@ -15,6 +15,7 @@ def main(a, b, c):
     """
     count = a > 0 + b > 0 + c > 0
     if count >= 2:
-        return "there are a lot of positive numbers"
+        result = "there are a lot of positive numbers"
     else:
-        return "there are a lot of negative numbers"
+        result = "there are a lot of negative numbers"
+    return result
