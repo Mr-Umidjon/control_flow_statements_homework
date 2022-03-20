@@ -16,9 +16,9 @@ def main(a):
     if (9 < a < 100 or -100 < a < -9) and a % 2 == 0:
         reslut = "two-digit even number"
 
-    if (99 < a < 1000 or 99 < -1 * a < 1000) and a % 2 == 1:
+    if (99 < a < 1000 or -1000 < a < -99) and a % 2 == 1:
         reslut = "two-digit odd number"
-    if (99 < a < 1000 or 99 < -1 * a < 1000) and a % 2 == 0:
+    if (99 < a < 1000 or -1000 < a < -99) and a % 2 == 0:
         reslut = "two-digit even number"
 
     return reslut
